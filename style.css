@@ -12,7 +12,6 @@ h1 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
-
     color: #342B2B;   
     margin: 0 0 60px;
 }
@@ -140,6 +139,20 @@ a {
     font-weight: bold;
 }
 
+h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 100px 0 44px;
+}
+
 .about-l {
     width: 666px;
+}
+
+.requirements-list {
+    list-style-image: url('img/Rectangle.png');
+    line-height: 3;
 }
