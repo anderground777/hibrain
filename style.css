@@ -33,6 +33,10 @@ h1 {
     justify-content: space-between;
 }
 
+.gap {
+    gap: 0 40px;
+}
+
 header {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
@@ -148,11 +152,55 @@ h2 {
     margin: 100px 0 44px;
 }
 
+h3 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 60px 0 60px;
+}
+
 .about-l {
     width: 666px;
+}
+
+.requirements-blocks {
+    width: 565px;
+    height: 398px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding-left: 40px;
+    border-top: 18px solid #EEF1F2 ;
+    margin-top: 150px;
+    
 }
 
 .requirements-list {
     list-style-image: url('img/Rectangle.png');
     line-height: 3;
+}
+
+.circles {
+    position: absolute;
+    margin: -13px;
+}
+
+.program {
+    background: #EEF1F2;
+}
+
+footer {
+    background: #2A2F37;
+    color: #FFFFFF;
+}
+
+
+.footer-menu-list {
+    list-style: none;
+    font-weight: 400;
+    
+}
+
+.footer-down-menu-list {
+    list-style: none;
 }
