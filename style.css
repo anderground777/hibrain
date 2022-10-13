@@ -231,6 +231,12 @@ hr {
    
 }
 
+.appoint-cource-block {
+    width: 1140px;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
 footer {
     background: #2A2F37;
     color: #FFFFFF;
