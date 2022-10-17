@@ -1,46 +1,52 @@
 body {
-    
     font-family: 'Rubik', sans-serif;
     line-height: 24px;
     margin: 0;
-    
 }
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab';
-    font-style: normal;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #342B2B;
+}
+.main-banner-h1 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
-    color: #342B2B;   
-    margin: 0 0 60px;
+    margin-bottom: 60px;
+   
 }
-
+p {
+    margin: 0;
+    padding: 0;
+    color: #342B2B;
+}
+.regular-txt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
 .container {
     width: 1140px;
     margin: auto;    
 }
-
 .d-flex {
     display: flex;
 }
-
 .fd-column {
     flex-direction: column;
 }
-
 .flex-wrap {
     flex-wrap: wrap;
 }
-
 .flex-sb {
     justify-content: space-between;
 }
-
 .gap {
     gap: 0 40px;
 }
-
 .margin-top {
     margin-top: 40px;
 }
@@ -75,7 +81,7 @@ header {
 
 .main-banner-up {
     padding-top: 100px;
-    margin-bottom: 44px;
+    margin-bottom: 60px;
 }
 
 .main-banner-text-l {
@@ -86,7 +92,7 @@ header {
 
 .main-banner-text-m {
     width: 897px;
-    margin-bottom: 44px;
+    margin-bottom: 60px;
 }
 
 
@@ -147,37 +153,33 @@ a {
 }
 
 .bold-txt {
-    font-weight: bold;
-}
-
-.txt-s18-h24 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    color: #342B2B;
-}
-
-.txt-s14-h20  {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    color: #342B2B;
-    
+    margin-top: 8px;
 }
 
 hr {
     height: 4px;    
     background-color: #1E3DAF;
     width: 101px;
-    margin: 0;
-    
+    margin: 12px 0 12px 0;    
 }
-
 
 .about-l {
     width: 666px;
 }
 
+.about-h2 {
+    margin: 100px 0 60px 0;
+}
+
+.requirements-h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 60px 0 60px 0;
+}
 .requirements-blocks {
     width: 565px;
     height: 398px;
@@ -192,19 +194,68 @@ hr {
 .requirements-list {
     list-style-image: url('img/Rectangle.png');
     line-height: 3;
+    
 }
 
 .circles {
     position: absolute;
-    margin: -13px;
+    margin: -13px 0 20px 0;
 }
 
 .experts-img-blocks {
     border-bottom: 1px solid rgba(52, 43, 43, .2);
     padding-bottom: 154px;
-   
+    justify-content: space-between;   
+}
+.experts-img-block1 {
+    
+
+}
+.expert-rectangle {
+    background-color: #EEF1F2;
+    border-radius: 4px;
+
+}
+.expert-rectangle-img {
+    width: 162px;
+    height: 200px;    
+    margin-bottom: 12px;
 }
 
+.expert-rectangle-img-d {
+    position: relative;
+    left: 30%;
+    top: 35%;
+}
+.expert-rectangle-txt-b {
+    width: 177px;
+    height: 24px;
+    margin-bottom: 12px;
+}
+
+.expert-rectangle-gray-hr {       
+    width: 101px;
+    height: 4px; 
+    margin-bottom: 12px;
+}
+
+.expert-rectangle-txt {
+    width: 235px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+.expert-rectangle-txt-br {
+    width: 74px;
+    height: 20px;
+}
+
+
+
+.expert-txt {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
 .carrier-img-block {
     margin: 40px 0 150px 0;
 }
@@ -214,11 +265,18 @@ hr {
     height: 910px;
 }
 
+.program-h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .program-blocks {
     background: #FFFFFF;
     width: 867px;
     margin-bottom: 12px;
-    border-radius: 4px;  
+    border-radius: 4px;
+    padding: 28px 0 0 24px;  
 
 }
 
@@ -227,19 +285,73 @@ hr {
 }
 
 .program-img {
-    width: 500px;
-   
+   width: 550px;
+  
+   right: 5%;   
+}
+
+.appoint-cource-h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 32px 0;
+}
+.appoint-cource-txt{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px 12px;
+
+}
+.appoint-btn-d {
+    margin-top: 24px;
+}
+.appoint-cource-ico {
+    margin: 0 0 16px 0;
 }
 
 .appoint-cource-block {
-    width: 1140px;
-    background-color: aqua;
-    justify-content: space-around;
+    width: 1170px;
+    height: 296px;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -148px;
+}
+
+.appoint-cource-block-l {
+    width: 585px;
+    border-right: 1px solid rgba(52,43,43,0.2); 
+    padding-left: 40px;
+   
+    box-sizing: border-box;
+    
+}
+
+.appoint-cource-block-r {   
+    width: 585px;
+}
+
+.appoint-cource-block-r img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appoint-course-block-txt {
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 12px;    
+}
+
+.background-blue {
+    background-color: #1E3DAF;
 }
 
 footer {
     background: #2A2F37;
     color: #FFFFFF;
+    
 }
 
 
