@@ -21,6 +21,11 @@ p {
     padding: 0;
     color: #342B2B;
 }
+
+a {
+    text-decoration: none;
+}
+
 .regular-txt {
     font-style: normal;
     font-weight: 300;
@@ -29,8 +34,14 @@ p {
     margin-bottom: 28px;
 }
 .container {
-    width: 1140px;
+    width: 1170px;
     margin: auto;    
+}
+.d-grid {
+    display: grid;
+}
+.grid-col-2-1 {
+    grid-template-columns: repeat(2, 1fr);
 }
 .d-flex {
     display: flex;
@@ -43,9 +54,6 @@ p {
 }
 .flex-sb {
     justify-content: space-between;
-}
-.gap {
-    gap: 0 40px;
 }
 .margin-top {
     margin-top: 40px;
@@ -96,9 +104,7 @@ header {
 }
 
 
-a {
-    text-decoration: none;
-}
+
 
 .upper-btn {
     align-items: center;
@@ -178,34 +184,42 @@ hr {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    margin: 60px 0 60px 0;
+    margin: 60px 0 60px 40px;
 }
 .requirements-blocks {
+    gap: 40px;
+}
+.requirements-block-set {
     width: 565px;
     height: 398px;
     box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
-    padding-left: 40px;
     border-top: 18px solid #EEF1F2 ;
     margin-top: 150px;
     margin-bottom: 90px;
-    
+        
 }
 
 .requirements-list {
     list-style-image: url('img/Rectangle.png');
     line-height: 3;
-    
+    padding: 0;
+    margin-left: 60px;
 }
 
 .circles {
     position: absolute;
-    margin: -13px 0 20px 0;
+    margin: -13px 0 0 40px;
 }
 
 .experts-img-blocks {
     border-bottom: 1px solid rgba(52, 43, 43, .2);
     padding-bottom: 154px;
-    justify-content: space-between;   
+    display: grid;
+    gap: ;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+     
 }
 .experts-img-block1 {
     
@@ -294,7 +308,7 @@ hr {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    margin: 0 0 32px 0;
+    margin: 0 0 32px 40px;
 }
 .appoint-cource-txt{
     font-weight: 300;
@@ -304,10 +318,10 @@ hr {
 
 }
 .appoint-btn-d {
-    margin-top: 24px;
+    margin: 24px 0 0 40px;
 }
 .appoint-cource-ico {
-    margin: 0 0 16px 0;
+    margin: 0 0 16px 40px;
 }
 
 .appoint-cource-block {
@@ -321,9 +335,8 @@ hr {
 
 .appoint-cource-block-l {
     width: 585px;
-    border-right: 1px solid rgba(52,43,43,0.2); 
-    padding-left: 40px;
-   
+    
+    border-right: 1px solid rgba(52,43,43,0.2);   
     box-sizing: border-box;
     
 }
@@ -351,16 +364,53 @@ hr {
 footer {
     background: #2A2F37;
     color: #FFFFFF;
+    height: 304px;
     
 }
 
-
-.footer-menu-list {
+.footer-menu-list  {
     list-style: none;
     font-weight: 400;
+    margin-top: 48px;
+        
+}
+
+.footer-menu-list a:visited {
+    color: #FFFFFF;
     
 }
 
 .footer-down-menu-list {
     list-style: none;
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 129.14%;
+    opacity: 0.5;
+}
+
+.footer-down-menu-list a:visited {
+    color: #FFFFFF;
+}
+
+.footer-up-string {
+    padding-top: 40px;
+}
+
+.footer-up-striing-txt {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 129.14%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 42px;
+}
+.footer-up-string-l {
+    align-items: center;
+}
+
+.footer-up-string-l img {
+    padding-right: 43px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    
 }
