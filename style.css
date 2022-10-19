@@ -14,18 +14,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 42px;
     line-height: 55px;
     margin-bottom: 60px;
-   
 }
 p {
     margin: 0;
     padding: 0;
     color: #342B2B;
 }
-
 a {
     text-decoration: none;
 }
-
 .regular-txt {
     font-style: normal;
     font-weight: 300;
@@ -61,14 +58,10 @@ a {
 header {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
-
 .main-menu {
     height: 80px;
     background: #FFFFFF;
-    
-    
 }
-
 .main-menu-list {
     display: flex;
     justify-content: space-between;
@@ -81,35 +74,26 @@ header {
     font-size: 16px;
     line-height: 24px;
 }
-
 .main-banner {
     background-color: #EEF1F2;
     height: 663px;
 }
-
 .main-banner-up {
     padding-top: 100px;
     margin-bottom: 60px;
 }
-
 .main-banner-text-l {
     margin: 0;
     height: 243px; 
     width: 565px;
 }
-
 .main-banner-text-m {
     width: 897px;
     margin-bottom: 60px;
 }
-
-
-
-
 .upper-btn {
     align-items: center;
 }
-
 .white-btn {
     box-sizing: border-box;    
     width: 150px;
@@ -125,7 +109,6 @@ header {
     border: 1px solid #1E3DAF;
     border-radius: 4px;
 }
-
 .blue-btn {
     width: 86px;
     height: 36px;
@@ -141,7 +124,6 @@ header {
     color: #FFFFFF;
     margin-left: 6px;
 }
-
 .appoint-btn {
     height: 48px;
     width: 247px;
@@ -164,22 +146,18 @@ header {
     line-height: 24px;
     margin-top: 8px;
 }
-
 hr {
     height: 4px;    
     background-color: #1E3DAF;
     width: 101px;
     margin: 12px 0 12px 0;    
 }
-
 .about-l {
     width: 666px;
 }
-
 .about-h2 {
     margin: 100px 0 60px 0;
 }
-
 .requirements-h2 {
     font-weight: 700;
     font-size: 24px;
@@ -196,21 +174,17 @@ hr {
     border-top: 18px solid #EEF1F2 ;
     margin-top: 150px;
     margin-bottom: 90px;
-        
 }
-
 .requirements-list {
     list-style-image: url('img/Rectangle.png');
     line-height: 3;
     padding: 0;
     margin-left: 60px;
 }
-
 .circles {
     position: absolute;
     margin: -13px 0 0 40px;
 }
-
 .experts-img-blocks {
     border-bottom: 1px solid rgba(52, 43, 43, .2);
     padding-bottom: 154px;
@@ -220,7 +194,6 @@ hr {
 .expert-rectangle {
     background-color: #EEF1F2;
     border-radius: 4px;
-
 }
 .expert-rectangle-img {
     width: 162px;
@@ -254,28 +227,26 @@ hr {
     width: 74px;
     height: 20px;
 }
-
-
-
 .expert-txt {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
 }
 .carrier-img-block {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-between;
     margin: 40px 0 150px 0;
 }
 .program-container {
     width: 1170px;
     margin: auto;
 }
-
 .program {
     background: #EEF1F2;
     background-image: url(img/girl.svg);
     background-repeat: no-repeat;   
-    background-position: calc(100%)  ;
-
+    background-position: calc(100%);
     height: 910px;
 }
 .program-h2 {
@@ -286,31 +257,24 @@ hr {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    margin-left: 40px;
 }
-
+.program-txt-block {
+    width: 642px;
+    margin-left: 40px;
+}
 .program-blocks {
     background: #FFFFFF;
     width: 867px;
     margin-bottom: 12px;
-    border-radius: 4px;
-    
-}
-.program-block1 {
-   
+    border-radius: 4px;    
 }
 .program-block-item {
-    align-items: center;
-    
+    align-items: center;  
 }
 .program-txt {
     margin-left: 24px;
 }
-
-.program-img {   
-      
-
-}
-
 .appoint-cource-h2 {
     font-weight: 700;
     font-size: 24px;
@@ -330,7 +294,6 @@ hr {
 .appoint-cource-ico {
     margin: 0 0 16px 40px;
 }
-
 .appoint-cource-block {
     width: 1170px;
     height: 296px;
@@ -339,52 +302,40 @@ hr {
     position: relative;
     top: -148px;
 }
-
 .appoint-cource-block-l {
     width: 585px;    
     border-right: 1px solid rgba(52,43,43,0.2);   
     box-sizing: border-box;    
 }
-
 .appoint-cource-block-r {   
     width: 585px;
 }
-
 .appoint-cource-block-r img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .appoint-course-block-txt {
     font-weight: 300;
     font-size: 16px;
     margin-left: 12px;    
 }
-
 .background-blue {
     background-color: #1E3DAF;
 }
-
 footer {
     background: #2A2F37;
     color: #FFFFFF;
-    height: 304px;
-    
+    height: 304px;    
 }
-
 .footer-menu-list  {
     list-style: none;
     font-weight: 400;
-    margin-top: 48px;
-        
+    margin-top: 48px;        
 }
-
 .footer-menu-list a:visited {
     color: #FFFFFF;
-    
 }
-
 .footer-down-menu-list {
     list-style: none;
     margin-top: 60px;
@@ -393,15 +344,12 @@ footer {
     line-height: 129.14%;
     opacity: 0.5;
 }
-
 .footer-down-menu-list a:visited {
     color: #FFFFFF;
 }
-
 .footer-up-string {
     padding-top: 40px;
 }
-
 .footer-up-striing-txt {
     font-weight: 300;
     font-size: 12px;
@@ -413,9 +361,13 @@ footer {
 .footer-up-string-l {
     align-items: center;
 }
-
+.footer-up-string-r {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    opacity: 0.2;
+}
 .footer-up-string-l img {
     padding-right: 43px;
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-    
+    border-right: 1px solid rgba(255, 255, 255, 0.5);    
 }
